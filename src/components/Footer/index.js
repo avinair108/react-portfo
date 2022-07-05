@@ -24,38 +24,38 @@ const toggleHome = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/">How it work</FooterLink>
-                            <FooterLink to="/">Testimonials</FooterLink>
-                            <FooterLink to="/">Career</FooterLink>
-                            <FooterLink to="/">Terms of Service</FooterLink>
-                            <FooterLink to="/">Investors</FooterLink>
+                        <FooterLinkTitle>Thank You</FooterLinkTitle>
+                            <FooterLink to="/">For Visiting</FooterLink>
+                            <FooterLink to="/">My Portfolio</FooterLink>
+                            <FooterLink to="/">I Made This</FooterLink>
+                            <FooterLink to="/">Footer For Fun</FooterLink>
+                            <FooterLink to="/">And Aesthetics</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/">How it work</FooterLink>
-                            <FooterLink to="/">Testimonials</FooterLink>
-                            <FooterLink to="/">Career</FooterLink>
-                            <FooterLink to="/">Terms of Service</FooterLink>
-                            <FooterLink to="/">Investors</FooterLink>
+                        <FooterLinkTitle>You Can</FooterLinkTitle>
+                            <FooterLink to="/">Click These</FooterLink>
+                            <FooterLink to="/">Links To</FooterLink>
+                            <FooterLink to="/">See If One</FooterLink>
+                            <FooterLink to="/">Contains A Secret</FooterLink>
+                            <FooterLink to="/">Surprise</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
-                    <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/">How it work</FooterLink>
-                            <FooterLink to="/">Testimonials</FooterLink>
-                            <FooterLink to="/">Career</FooterLink>
-                            <FooterLink to="/">Terms of Service</FooterLink>
-                            <FooterLink to="/">Investors</FooterLink>
+                <FooterLinkItems>
+                        <FooterLinkTitle>Thank You</FooterLinkTitle>
+                            <FooterLink to="/">For Visiting</FooterLink>
+                            <FooterLink to="/">My Portfolio</FooterLink>
+                            <FooterLink to="/">I Made This</FooterLink>
+                            <FooterLink to="/">Footer For Fun</FooterLink>
+                            <FooterLink to="/">And Aesthetics</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/">How it work</FooterLink>
-                            <FooterLink to="/">Testimonials</FooterLink>
-                            <FooterLink to="/">Career</FooterLink>
-                            <FooterLink to="/">Terms of Service</FooterLink>
-                            <FooterLink to="/">Investors</FooterLink>
+                        <FooterLinkTitle>You Can</FooterLinkTitle>
+                            <FooterLink to="/">Click These</FooterLink>
+                            <FooterLink to="/">Links To</FooterLink>
+                            <FooterLink to="/">See If One</FooterLink>
+                            <FooterLink to="/">Contains A Secret</FooterLink>
+                            <FooterLink to="/">Surprise</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
