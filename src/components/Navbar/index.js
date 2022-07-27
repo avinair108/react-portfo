@@ -75,9 +75,9 @@ const Navbar = ({toggle}) => {
                         offset={-80}>Projects</NavLinks>
                     </NavItem>
                 </NavMenu>
-                <NavBtn>
+                {/* <NavBtn>
                     <NavBtnLink to='/signin'>Contact</NavBtnLink>
-                </NavBtn>
+                </NavBtn> */}
             </NavbarContainer>
         </Nav>
     </>
