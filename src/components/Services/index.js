@@ -26,17 +26,35 @@ const [hover, setHover] = useState(false);
     setHover(!hover);
   };
 
+const [hover1, setHover1] = useState(false);
+
+  const onHover1 = () =>{
+    setHover1(!hover1);
+  };
+
+  const [hover2, setHover2] = useState(false);
+
+  const onHover2 = () =>{
+    setHover2(!hover2);
+  };
+
+  const [hover3, setHover3] = useState(false);
+
+  const onHover3 = () =>{
+    setHover3(!hover3);
+  };
+
   return (
     <>
     <ServicesContainer id="services">
         <ServicesH1>My Skills</ServicesH1>
         <ServicesWrapper>
             <CardWrap 
-            onMouseDown={onHover} >
-                {!hover ? <ServicesCard>
+            onMouseDown={onHover1} >
+                {!hover1 ? <ServicesCard>
                     <ServicesIcon src={Icon1} />
                     <ServicesH2>Languages</ServicesH2>
-                    <ServicesP>Click Us To See More!</ServicesP>
+                    <ServicesP>Click Me To See More!</ServicesP>
                 </ServicesCard> : <ServicesCard>
                     <ServicesH2>Languages(Click to Toggle)</ServicesH2>
                     <ServicesP>C, C++, Java, JavaScript, HTML/CSS, Python</ServicesP>
@@ -47,29 +65,29 @@ const [hover, setHover] = useState(false);
                 {!hover ? <ServicesCard>
                     <ServicesIcon src={Icon2} />
                     <ServicesH2>Tools and Frameworks</ServicesH2>
-                    <ServicesP>Click Us To See More!</ServicesP>
+                    <ServicesP>Click Me To See More!</ServicesP>
                 </ServicesCard> : <ServicesCard>
                     <ServicesH2>Tools and Frameworks(Click to Toggle)</ServicesH2>
                     <ServicesP>Node.js, Swing, Express.js, React</ServicesP>
                 </ServicesCard>}
             </CardWrap2>
             <CardWrap3 
-            onMouseDown={onHover} >
-                {!hover ? <ServicesCard>
+            onMouseDown={onHover2} >
+                {!hover2 ? <ServicesCard>
                     <ServicesIcon src={Icon3} />
                     <ServicesH2>Operating Systems</ServicesH2>
-                    <ServicesP>Click Us To See More!</ServicesP>
+                    <ServicesP>Click Me To See More!</ServicesP>
                 </ServicesCard> : <ServicesCard>
                     <ServicesH2>Operating Systems(Click to Toggle)</ServicesH2>
                     <ServicesP> Linux, MacOSX, Windows XP, Windows 10, iOS</ServicesP>
                 </ServicesCard>}
             </CardWrap3>
             <CardWrap4 
-            onMouseDown={onHover} >
-                {!hover ? <ServicesCard>
+            onMouseDown={onHover3} >
+                {!hover3 ? <ServicesCard>
                     <ServicesIcon src={Icon4} />
                     <ServicesH2>Applications</ServicesH2>
-                    <ServicesP>Click Us To See More!</ServicesP>
+                    <ServicesP>Click Me To See More!</ServicesP>
                 </ServicesCard> : <ServicesCard>
                     <ServicesH2>Applications(Click to Toggle)</ServicesH2>
                     <ServicesP>MS Office, Adobe XD, Google Workspace, Google App Engine</ServicesP>
