@@ -31,9 +31,9 @@ const Sidebar = ({isOpen, toggle}) => {
                     Projects
                 </SidebarLink>
             </SidebarMenu>
-            <SideBtnWrap>
+            {/* <SideBtnWrap>
                 <SidebarRoute to='/signin'>Sign In</SidebarRoute>
-            </SideBtnWrap>
+            </SideBtnWrap> */}
         </SidebarWrapper>
     </SidebarContainer>
   )
