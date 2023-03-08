@@ -76,6 +76,13 @@ export const NavLinks = styled(LinkS)`
     height: 100%;
     cursor: pointer;
 
+    &:hover{
+        transform: scale(1.08);
+        font-weight: 700;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
     &.active {
         font-weight: 700;
         border-bottom: 3px solid #0efff9;
