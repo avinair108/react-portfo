@@ -22,7 +22,7 @@ export const ServicesWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    grid-gap: 16px;
+    grid-gap: 32px;
     padding: 0 50px;
 
     @media screen and (max-width: 1000) {
@@ -40,7 +40,7 @@ export const ServicesCard = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
     max-height: 340px;
     padding: 30px;
     margin-bottom: 20px;

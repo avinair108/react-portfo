@@ -3,11 +3,11 @@ import { animateScroll as scroll } from 'react-scroll'
 import {
     FooterContainer,
     FooterWrap,
-    FooterLinksContainer,
-    FooterLinksWrapper,
-    FooterLinkTitle,
-    FooterLinkItems,
-    FooterLink,
+    // FooterLinksContainer,
+    // FooterLinksWrapper,
+    // FooterLinkTitle,
+    // FooterLinkItems,
+    // FooterLink,
     SocialMedia,
     SocialMediaWrap,
     SocialLogo
@@ -21,7 +21,7 @@ const toggleHome = () => {
   return (
     <FooterContainer>
         <FooterWrap>
-            <FooterLinksContainer>
+            {/* <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>Thank You</FooterLinkTitle>
@@ -58,7 +58,7 @@ const toggleHome = () => {
                             <FooterLink to="/">Surprise</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
-            </FooterLinksContainer>
+            </FooterLinksContainer> */}
             <SocialMedia>
             <SocialMediaWrap>
                 <SocialLogo to='/' onClick={toggleHome}>
