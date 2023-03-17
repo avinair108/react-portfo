@@ -3,6 +3,7 @@ import Video from '../../video/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper,
 ArrowForward, ArrowRight } from './HeroElements'
 import { Button } from '../ButtonElement'
+import Typewriter from 'typewriter-effect';
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -16,8 +17,18 @@ const HeroSection = () => {
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
-        <HeroContent>
-          <HeroH1>Hi there, I'm Avi</HeroH1>
+        <HeroContent> 
+            <HeroH1>
+            <Typewriter
+            options= {{
+              strings: ["Hi there!" , "I'm Avi!"],
+              autoStart: true,
+              loop: true,
+              delay: 50,
+              pauseFor: 1750,
+            }}
+          />
+            </HeroH1>
           <HeroP>
             Welcome to my website!
           </HeroP>
