@@ -4,7 +4,7 @@ import { animateScroll as scroll } from 'react-scroll'
 import { 
     Nav, 
     NavbarContainer, 
-    NavLogo, 
+    // NavLogo, 
     MobileIcon, 
     NavMenu, 
     NavItem,
@@ -28,9 +28,9 @@ const Navbar = ({toggle}) => {
         window.addEventListener('scroll', changeNav)
     }, [])
 
-    const toggleHome = () => {
-        scroll.scrollToTop();
-    }
+    // const toggleHome = () => {
+    //     scroll.scrollToTop();
+    // }
 
   return (
     <>
