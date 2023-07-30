@@ -1,5 +1,6 @@
 .footerContainer {
-    background-color: #101522;
+    border-top: 2px solid #fff;
+    background-color: #000000;
 }
 
 .footerWrap {

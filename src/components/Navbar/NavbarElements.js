@@ -86,6 +86,8 @@ export const NavLinks = styled(LinkS)`
 
     &.active {
         font-weight: 700;
+        
+        
         border-bottom: 3px solid #0efff9;
     }
 `

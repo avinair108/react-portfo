@@ -13,7 +13,7 @@ const HeroSection = () => {
             <h1 className='mainHeader'>
             <Typewriter
             options= {{
-              strings: ["Hi there!" , "I'm Avi!"],
+              strings: ["Hi there" , "I'm Avi", "Welcome to my site!"],
               autoStart: true,
               loop: true,
               delay: 50,
