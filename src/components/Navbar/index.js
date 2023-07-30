@@ -36,7 +36,7 @@ const Navbar = ({toggle}) => {
     <>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to='/' onClick={toggleHome}>Avinash</NavLogo>               
+                {/* <NavLogo to='/' onClick={toggleHome}>Avinash</NavLogo>                */}
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
@@ -48,7 +48,9 @@ const Navbar = ({toggle}) => {
                         activeClass='active'
                         spy={true}
                         exact='true'
-                        offset={-80}>About Me</NavLinks>
+                        //offset={-80}
+                        >
+                            About Me</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='discover'
@@ -56,7 +58,8 @@ const Navbar = ({toggle}) => {
                         duration={500}
                         spy={true}
                         exact='true'
-                        offset={-80}>Experience</NavLinks>
+                        //offset={-80}
+                        >Experience</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='services'
@@ -64,7 +67,8 @@ const Navbar = ({toggle}) => {
                         duration={500}
                         spy={true}
                         exact='true'
-                        offset={-80}>Skills</NavLinks>
+                        //offset={-80}
+                        >Skills</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='signup'
@@ -72,7 +76,8 @@ const Navbar = ({toggle}) => {
                         duration={500}
                         spy={true}
                         exact='true'
-                        offset={-80}>Projects</NavLinks>
+                        //</NavItem>offset={-80}
+                        >Projects</NavLinks>
                     </NavItem>
                 </NavMenu>
                 {/* <NavBtn>

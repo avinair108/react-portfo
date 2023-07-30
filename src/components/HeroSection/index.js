@@ -32,10 +32,10 @@ const HeroSection = () => {
             }}
           />
             </h1>
-          <p className='mainText'>
-            Welcome to my website!
-          </p>
-          <div className='mainButtonWrapper'>
+          {/* <p className='mainText'>
+            Welcome
+          </p> */}
+          {/* <div className='mainButtonWrapper'>
             <Button 
             to='about' 
             onMouseEnter={onHover} 
@@ -51,7 +51,7 @@ const HeroSection = () => {
               About Me   
             {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
-          </div>
+          </div> */}
         </div>
     </div>
   )

@@ -37,7 +37,7 @@ export const homeObjTwo = {
     targetId: 'services',
     buttonLabel2: 'My Resume',
     targetLink: "https://docs.google.com/document/d/1ByBuSuscCndyZoHIbCgAbWD0VR8rqIoEgua6tc-OV9k/edit?usp=sharing",
-    sizing: false,
+    sizing: true,
 };
 
 export const homeObjThree = {
