@@ -4,6 +4,8 @@ import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrap
 ArrowForward, ArrowRight } from './HeroElements'
 import { Button } from '../ButtonElement'
 import Typewriter from 'typewriter-effect';
+import './LandingPage.css'
+import Image from '../../images/react-image.jpg'
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -13,12 +15,13 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer id='home'>
+    <div className='mainContainer' id='home'>
         <HeroBg>
-            <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+            {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
+            <img className='mainImage' src={Image}/>
         </HeroBg>
-        <HeroContent> 
-            <HeroH1>
+        <div className='mainContent'> 
+            <h1 className='mainHeader'>
             <Typewriter
             options= {{
               strings: ["Hi there!" , "I'm Avi!"],
@@ -28,11 +31,11 @@ const HeroSection = () => {
               pauseFor: 1750,
             }}
           />
-            </HeroH1>
-          <HeroP>
+            </h1>
+          <p className='mainText'>
             Welcome to my website!
-          </HeroP>
-          <HeroBtnWrapper>
+          </p>
+          <div className='mainButtonWrapper'>
             <Button 
             to='about' 
             onMouseEnter={onHover} 
@@ -48,9 +51,9 @@ const HeroSection = () => {
               About Me   
             {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
-          </HeroBtnWrapper>
-        </HeroContent>
-    </HeroContainer>
+          </div>
+        </div>
+    </div>
   )
 }
 

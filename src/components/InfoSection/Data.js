@@ -15,7 +15,8 @@ export const homeObjOne = {
     darkText: false,
     targetId: 'discover',
     buttonLabel2: 'My LinkedIn',
-    targetLink: "https://www.linkedin.com/in/avinash-nair-603674186/"
+    targetLink: "https://www.linkedin.com/in/avinash-nair-603674186/",
+    sizing: true,
 };
 
 export const homeObjTwo = {
@@ -35,7 +36,8 @@ export const homeObjTwo = {
     darkText: false,
     targetId: 'services',
     buttonLabel2: 'My Resume',
-    targetLink: "https://docs.google.com/document/d/1ByBuSuscCndyZoHIbCgAbWD0VR8rqIoEgua6tc-OV9k/edit?usp=sharing"
+    targetLink: "https://docs.google.com/document/d/1ByBuSuscCndyZoHIbCgAbWD0VR8rqIoEgua6tc-OV9k/edit?usp=sharing",
+    sizing: false,
 };
 
 export const homeObjThree = {
@@ -55,5 +57,6 @@ export const homeObjThree = {
     darkText: false,
     targetId: 'home',
     buttonLabel2: 'My Github',
-    targetLink: "https://github.com/avinair108"
+    targetLink: "https://github.com/avinair108",
+    sizing: true
 };

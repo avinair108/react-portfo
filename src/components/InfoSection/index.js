@@ -17,11 +17,11 @@ import {
 } from './InfoElements'
 
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, targetId, buttonLabel2, targetLink}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, targetId, buttonLabel2, targetLink, sizing}) => {
   return (
     <>
     <InfoContainer lightBg={lightBg} id={id}>
-        <InfoWrapper>
+        <InfoWrapper sizing={sizing}>
             <InfoRow imgStart={imgStart}>
                 <Column1>
                 <TextWrapper>
