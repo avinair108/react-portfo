@@ -36,7 +36,6 @@ const Navbar = ({toggle}) => {
     <>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                {/* <NavLogo to='/' onClick={toggleHome}>Avinash</NavLogo>                */}
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
@@ -60,15 +59,6 @@ const Navbar = ({toggle}) => {
                         exact='true'
                         //offset={-80}
                         >Experience</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to='services'
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact='true'
-                        //offset={-80}
-                        >Skills</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='signup'
