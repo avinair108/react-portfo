@@ -4,7 +4,6 @@ import {FaBars} from 'react-icons/fa'
 import { 
     Nav, 
     NavbarContainer, 
-    // NavLogo, 
     MobileIcon, 
     NavMenu, 
     NavItem,
@@ -48,8 +47,7 @@ const Navbar = ({toggle}) => {
                         spy={true}
                         exact='true'
                         //offset={-80}
-                        >
-                            About Me</NavLinks>
+                        >About Me</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='discover'
