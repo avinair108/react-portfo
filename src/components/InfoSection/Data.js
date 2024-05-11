@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About Me',
     headline: 'Avinash Nair',
-    description: 'I am currently a double major student in Computer Science and Cognitive Science. I am interested in artificial intelligence, web development, and more!',
+    description: 'Puzzle lover',
     buttonLabel: 'To Experience',
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
@@ -16,7 +16,7 @@ export const homeObjOne = {
     targetId: 'discover',
     buttonLabel2: 'My LinkedIn',
     targetLink: "https://www.linkedin.com/in/avinash-nair-603674186/",
-    sizing: true,
+    sizing: false,
 };
 
 export const homeObjTwo = {
